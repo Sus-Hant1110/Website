@@ -80,6 +80,7 @@
             padding: 10px 20px;
             cursor: pointer;
             border-radius: 5px;
+            width: 100%;
         }
         .form-group input[type="submit"]:hover {
             background-color: #0056b3;
@@ -93,6 +94,13 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 768px) {
+            .form-group input[type="submit"] {
+                width: auto;
+            }
         }
     </style>
 </head>
