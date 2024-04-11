@@ -30,7 +30,7 @@
             height: 100px;
         }
         img {
-            height: 90px;
+            height: 100%; /* Adjusted to match the height of the header */
             width: auto;
             margin-right: 10px;
         }
@@ -47,6 +47,7 @@
             color: #fff;
             text-decoration: none;
             padding: 10px 20px;
+            font-weight: bold; /* Making font bold */
         }
         nav a:hover {
             background-color: #003d7f;
@@ -62,14 +63,16 @@
         }
         .section {
             margin-bottom: 30px;
-            flex-basis: calc(33.33% - 20px);
+            flex-basis: 100%; /* Adjusted to have one section per row */
         }
         .section h2 {
             text-align: center;
+            font-weight: bold; /* Making font bold */
         }
         p, ul {
             margin-top: 10px;
             text-align: justify;
+            font-weight: bold; /* Making font bold */
         }
         /* Footer */
         footer {
